@@ -11,5 +11,7 @@ public class Main {
         System.out.println(unionFind);
         unionFind.connect(0, 2);
         System.out.println(unionFind);
+
+        System.out.println(unionFind.connected(0,4));
     }
 }
